@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Birthday Surprise</title>
+    <link rel="stylesheet" href="MANIPULATION.CSS">
+</head>
+<body>
+    <div style="display:flex; justify-content:center; align-items:center; gap:1cm;">
+        <video controls autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        <div>
+            <img src="img.jpg" alt="Choco">
+            <p>
+                Sher ka Birthday........... 
+            </p>
+            <button onclick="playSong()">
+                Play Birthday Song
+            </button>
+            <audio id="birthdaySong" loop>
+                <source src="audio.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+    <script src="MANIPULATION.JS"></script>
+</body>
+</html>
